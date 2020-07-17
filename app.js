@@ -62,3 +62,38 @@ function result9() {
 function result10() {
 
 }
+
+
+const sectionOne = document.getElementById('section1');
+console.log(sectionOne);
+const sectionTwo = document.getElementById('section2')
+console.log(sectionTwo);
+const sectionThree = document.querySelector('#section3');
+console.log(sectionThree);
+const sectionFour = document.querySelector('#section4');
+console.log(sectionFour);
+const sectionFive = document.querySelector('#section5');
+console.log(sectionFive);
+
+sectionOne.textContent = 'Blazers';
+sectionTwo.textContent = 'Lakers';
+sectionThree.textContent = 'Celtics';
+sectionFour.textContent = 'Clippers';
+sectionFive.textContent = 'Atlanta';
+
+
+const paraOne = document.querySelector('.paragraph1')
+console.log(paraOne);
+paraOne.textContent = 'Damian Lillard';
+const paraTwo = document.querySelector('.paragraph2');
+console.log(paraTwo);
+paraTwo.textContent = 'Lebron James';
+const paraThree = document.querySelector('.paragraph3');
+console.log(paraThree);
+paraThree.textContent = 'Kevin Garnett';
+const paraFour = document.querySelector('.paragraph4');
+console.log(paraFour);
+paraFour.textContent = 'Kawhi Leonard';
+const paraFive = document.querySelector('.paragraph5');
+console.log(paraFive);
+paraFive.textContent = 'Trae Young';
