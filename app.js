@@ -97,3 +97,37 @@ paraFour.textContent = 'Kawhi Leonard';
 const paraFive = document.querySelector('.paragraph5');
 console.log(paraFive);
 paraFive.textContent = 'Trae Young';
+
+const containerSix = document.createElement('div');
+console.log(containerSix);
+containerSix.classList.add('container-six');
+const section6 = document.createElement('h2');
+console.log(section6);
+section6.setAttribute('id', 'section6');
+section6.textContent = 'Rockets';
+const paraSix = document.createElement('p');
+console.log(paraSix);
+paraSix.setAttribute('class', 'paragraph6');
+paraSix.textContent = 'James Harden';
+
+const body = document.querySelector('body');
+
+body.appendChild(containerSix);
+containerSix.appendChild(section6);
+containerSix.appendChild(paraSix);
+
+const containerSeven = document.createElement('div');
+console.log(containerSeven);
+containerSeven.setAttribute('class', 'container-seven');
+const section7 = document.createElement('h2');
+section7.setAttribute('id', 'section7');
+section7.textContent = 'Warriors';
+console.log(section7);
+const paraSeven = document.createElement('p');
+paraSeven.setAttribute('class', 'paragraph7');
+paraSeven.textContent = 'Steph Curry';
+console.log(paraSeven);
+
+body.appendChild(containerSeven);
+containerSeven.appendChild(section7);
+containerSeven.appendChild(paraSeven);
